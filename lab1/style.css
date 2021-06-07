@@ -4,5 +4,8 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media body (min-width: 768px) {
+
+
+@media (min-width: 768px) {
+    
 }
