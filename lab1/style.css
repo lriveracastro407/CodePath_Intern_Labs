@@ -1,0 +1,8 @@
+body {
+  background-color: #f9ebff;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  flex-direction: column;
+}
+@media body (min-width: 768px) {
+}
