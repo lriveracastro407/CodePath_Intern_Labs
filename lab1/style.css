@@ -1,11 +1,40 @@
 body {
-  background-color: #f9ebff;
   font-family: "Roboto Mono", monospace;
   display: flex;
   flex-direction: column;
+  background-color: #f3f6f6;
 }
 
+.about {
+  border: 3px solid #bddbd1;
+  box-shadow: 0 -10px #89a7a7;
+  padding-bottom: 50px;
+  background-color: #bddbd1;
+}
+h1 {
+  border: 2px solid #9aeade;
+  background-color: #9aeade;
+}
+button {
+  padding: 15px 40px;
+  margin-left: 15%;
+  background-color: #1c8777;
+  border-radius: 5%;
+}
 
-@media (min-width: 768px) {
-    
+.portfolio {
+  display: flex;
+}
+.portfolio div {
+  width: 300px;
+  height: 350px;
+  border: 15px solid #488470;
+  padding: 50px;
+  margin: 20px;
+}
+@media (max-width: 931px) {
+  .portfolio {
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
