@@ -11,7 +11,7 @@ const searchForm = document.querySelector('#searchform')
 /** API variables */
 const api_key = '765ece2c111fb5c30abfeb28d365ac2c'
 var pageNum = 1
-var ps
+var whichload
 //tmdb images: https://api.themoviedb.org/3/movie/{movie_id}/images?api_key=<<api_key>>&language=en-US |
 //| https://image.tmdb.org/t/p/w500/8uO0gUM8aNqYLs1OsTBQiXu0fEv.jpg
 // http://image.tmdb.org/t/p/ + configuration.images.poster_sizes[5]
@@ -26,7 +26,7 @@ var ps
 
 //Load Popular Movies
 async function popMovies() {
-    ps = 0 //loadbutton uses popMovies
+    whichload = 0 //loadbutton uses popMovies
     const response = await fetch('https://api.themoviedb.org/3/movie/popular?api_key=' + api_key + '&language=en-US&page=' + pageNum)
     //console.log(response)
     const responseData =  await response.json()
@@ -68,13 +68,12 @@ function addMovies(title, rating, poster) {
 async function loadMore(event) {
     event.preventDefault()
     pageNum++
-    //if (ps = 0) {
+    if (whichload == 0) {
         popMovies()
-    //} else {
-        //handleFormSubmit()
-    //}
-    
-
+    } else {
+        const result = await searchMovies(currSearch)
+        getMovieinfo(result)
+    }
 }
 async function handleFormSubmit(event) {
     event.preventDefault()
@@ -82,15 +81,13 @@ async function handleFormSubmit(event) {
     currSearch = searchinput.value
     console.log(currSearch)
     pageNum = 1
-    ps = 1 //loadbutton loads search
+    whichload = 1 //loadbutton loads search
     const result = await searchMovies(currSearch)
     getMovieinfo(result)
     searchinput.value = ''
 
     
 }
-
-
 
 loadButton.addEventListener('click', loadMore)
 searchForm.addEventListener('submit', handleFormSubmit)
