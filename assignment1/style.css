@@ -1,0 +1,40 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #252422;
+  color: #fffcf2;
+}
+* {
+  box-sizing: border-box;
+}
+br {
+  color: #eb5e28, #252422, #403d39, #ccc5b9 #fffcf2;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  border-radius: 20%;
+}
+.hidden {
+}
+#search {
+  font-size: xx-large;
+}
+#searchbutton {
+  font-size: xx-large;
+}
+.movies {
+  margin: 10px;
+  display: inline-block;
+}
+.tr {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.tr p {
+  width: 100px;
+}
+#rating {
+  width: 20px;
+}
