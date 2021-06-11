@@ -9,19 +9,25 @@ body {
 br {
   color: #eb5e28, #252422, #403d39, #ccc5b9 #fffcf2;
 }
-
+h1 {
+  color: #fffcf2;
+}
 form {
   display: flex;
-  align-items: center;
-  border-radius: 20%;
+  justify-content: center;
 }
-.hidden {
+
+#loader {
+  display: inline-block;
+  margin-left: 47%;
+  font-size: x-large;
 }
-#search {
-  font-size: xx-large;
+#searchinput {
+  font-size: x-large;
 }
+
 #searchbutton {
-  font-size: xx-large;
+  font-size: x-large;
 }
 .movies {
   margin: 10px;
@@ -37,4 +43,16 @@ form {
 }
 #rating {
   width: 20px;
+}
+
+button {
+  background-color: #eb5e28;
+  border: none;
+  color: black;
+}
+
+#clear {
+  display: inline;
+  font-size: x-large;
+  float: right;
 }
