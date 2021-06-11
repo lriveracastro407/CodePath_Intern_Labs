@@ -1,4 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
 
 ## Week 1 Assignment: Flixster
 
@@ -29,29 +28,23 @@ Deployed Application (optional): [Flixster Deployed Site](https://lriveracastro4
 
 ### Walkthough GIF
 
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/8035eef70e904903b8d80611cd1fee5b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-<iframe 
-src="<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/8035eef70e904903b8d80611cd1fee5b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>" frameborder="0" 
-webkitallowfullscreen mozallowfullscreen allowfullscreen 
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 
 <img src="https://www.loom.com/share/8035eef70e904903b8d80611cd1fee5b" width=250><br>
-<iframe width="640" height="400" src="https://www.loom.com/embed/8035eef70e904903b8d80611cd1fee5b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The topics discussed in the lab did prepare to help me complete the assignment perfectly. Each lab built up my confidence and my skills to complete the assignment at the end. The most helpful was definitely the giphy party lab as it was very similar as we used an API to build the website. The features I felt unprepared for was dealing with the "current movies homepage" as I wasn't sure how to display it, but then it worked out in the end. CSS was also very difficult in creating a grid for the movie, but my partners helped me a lot with that. 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time I definitely would've implemented the "pop-up information" because it sounded like a lot of fun. The plan was to do that on Friday, but I spent most of the day helping others so I couldn't get around to it. I would've also liked to add more design elements like when you hover over a movie it pops out compared to the rest, but I didn't get around to doing that. 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+I thought my project demo went really well especially considering that I presented first. I did feel a little bad after I saw my peers work because their websites were so amazing but I know I'm at my own pace and that my accomplishments are valid. I would like to try to do the pop-up function because it definitely takes the interactivity of the website to the next level. 
 
 ### Open-source libraries used
 
@@ -59,4 +52,5 @@ Add your response here
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+I want to give a shoutout to everyone that helped me this week. Specifically, my peers:Ann Wang, Xavier Flores Loera, Yulia Leon, the TAs: Matt, Tirumari, Paige, and Raahima. They all helped me grow so much over the course of the week and I'm excited for next week. Also shoutout to my mentor Zeno Hao for being so understanding and really fun to talk to. 
+I look forward to the rest of the program. 
